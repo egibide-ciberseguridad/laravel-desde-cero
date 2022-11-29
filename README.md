@@ -18,10 +18,10 @@ Ejemplo de creación de una aplicación Laravel desde cero.
     make workspace
     ```
 
-2. Situarse en la carpeta `laravel`:
+2. Situarse en la carpeta `laravel-desde-cero`:
 
     ```bash
-    cd laravel
+    cd laravel-desde-cero
     ```
 
 3. Crear el proyecto:
@@ -52,7 +52,7 @@ Ejemplo de creación de una aplicación Laravel desde cero.
    en [Windows](https://www.adslzone.net/esenciales/windows-10/editar-archivo-host/) y añadir una nueva línea:
 
    ```text
-   127.0.0.1    laravel.dockerbox.test
+   127.0.0.1    laravel-desde-cero.dockerbox.test
    ```
 
 2. Recargar los sitios web disponibles:
@@ -61,7 +61,7 @@ Ejemplo de creación de una aplicación Laravel desde cero.
     make reload
     ```
 
-3. Acceder al [nuevo sitio](https://laravel.dockerbox.test).
+3. Acceder al [nuevo sitio](https://laravel-desde-cero.dockerbox.test).
 
 ## Crear la base de datos
 
@@ -90,7 +90,7 @@ make workspace
 ```
 
 ```bash
-cd laravel/laravel
+cd laravel-desde-cero/laravel
 ```
 
 Y después el comando que necesitemos. Por ejemplo:
