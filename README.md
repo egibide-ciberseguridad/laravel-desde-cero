@@ -36,15 +36,6 @@ Ejemplo de creación de una aplicación Laravel desde cero.
     exit
     ```
 
-5. Editar el fichero `app/Providers/AppServiceProvider.php` y añadir al método `boot()`:
-
-    ```php
-    public function boot()
-    {
-        \URL::forceScheme('https');
-    }    
-    ```
-
 ### Añadir el nuevo sitio web a Dockerbox
 
 1. [Redirigir los dominios .test a localhost](https://github.com/ijaureguialzo/automatic-test-domains). Si no es
